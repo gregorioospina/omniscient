@@ -53,7 +53,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="flex relative w-[100svw] flex-col mb-6 min-h-[70svh] lg:h-[75svh] items-center justify-start pt-10">
+			<div className="flex relative w-[100svw] flex-col mb-10 min-h-[70svh] lg:h-[75svh] items-center justify-start pt-10">
 				<div className="w-[80svw] md:w-[70svw] min-h-[400px] max-w-[800px] bg-purple-700 rounded-lg p-6 flex flex-col md:grid md:grid-cols-[auto_40%]">
 					<div className="flex flex-col">
 						<p className="text-white font-extralight text-xl">For only</p>
