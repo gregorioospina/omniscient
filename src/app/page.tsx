@@ -12,6 +12,7 @@ export default function Home() {
 				<button className="bg-purple-700 rounded-xl text-sm md:text-base p-2 px-5">Try it out</button>
 			</div>
 			<div className="relative h-[80svh]">
+				<div className="absolute top-0 right-0 left-0 bottom-0 z-10 select-none"></div>
 				<Spline style={{ zIndex: 0 }} scene="https://prod.spline.design/GvjcJVV3rai1-0l0/scene.splinecode" />
 				<div className="absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%]">
 					<p className="text-6xl font-bold">Omniscient</p>
