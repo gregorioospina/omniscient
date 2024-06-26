@@ -19,27 +19,21 @@ export default function Home() {
 					<p className="text-sm mt-4 text-white text-center">Leading background checks for Latin countries</p>
 				</div>
 			</div>
-			<p className="text-4xl font-bold mb-10">Use cases</p>
+			<p className="text-4xl font-bold text-white mb-10">Use cases</p>
 			<div className="mb-20 text-center gap-y-6 lg:gap-x-6 lg:justify-center flex-col lg:flex-row flex lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-				<div
-					className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-purple-950 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white font-semibold">Renter checks</h2>
-					<p className="m-0 max-w-[30ch] text-white text-sm opacity-50">
+				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950" rel="noopener noreferrer">
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Renter checks</h2>
+					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
 						Be sure that whomever you rent your property to doesnt have complicated background history in their countries of origin.
 					</p>
 				</div>
-				<div
-					className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-purple-950 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white font-semibold">Employee background insurance</h2>
-					<p className="m-0 max-w-[30ch] text-white text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
+				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Employee background</h2>
+					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
 				</div>
-				<div
-					className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-purple-950 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white font-semibold">Volunteer insurance</h2>
-					<p className="m-0 max-w-[30ch] text-white text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
+				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Volunteer insurance</h2>
+					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
 				</div>
 			</div>
 			<div className="flex relative w-[100svw] flex-col h-[70svh] lg:h-[75svh] items-center justify-end pt-10">
