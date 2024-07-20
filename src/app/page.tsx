@@ -6,8 +6,8 @@ export default function Home() {
 		<main className="flex min-h-screen flex-col items-center justify-between">
 			<div className="z-50 bg-black fixed px-5 items-center top-0 left-0 right-0 h-14 flex gap-x-8 justify-between">
 				<div className="flex gap-x-5 items-center">
-					<Image src="assets/icons/o-logo.svg" alt="omniscient logo" height={50} width={50} />
-					<p className="text-xl hidden lg:inline-flex font-bold">Omniscient</p>
+					<Image src="assets/icons/o-logo.svg" alt="safecheck logo" height={50} width={50} />
+					<p className="text-xl hidden lg:inline-flex font-bold">Safecheck</p>
 				</div>
 				<button className="bg-purple-700 text-white rounded-xl text-sm md:text-base p-2 px-5">Try it out</button>
 			</div>
@@ -15,25 +15,32 @@ export default function Home() {
 				<div className="absolute top-0 right-0 left-0 bottom-0 z-10 select-none"></div>
 				<Spline style={{ zIndex: 0 }} scene="https://prod.spline.design/GvjcJVV3rai1-0l0/scene.splinecode" />
 				<div className="absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%]">
-					<p className="text-6xl text-white font-bold">Omniscient</p>
+					<p className="text-6xl text-white font-bold">Safecheck</p>
 					<p className="text-sm mt-4 text-white text-center">Leading background checks for Latin countries</p>
 				</div>
 			</div>
 			<p className="text-4xl font-bold text-white mb-10">Use cases</p>
 			<div className="mb-20 text-center gap-y-6 lg:gap-x-6 lg:justify-center flex-col lg:flex-row flex lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
 				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950" rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Renter checks</h2>
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Ensure Safe Tenancy with Trusted Background Checks</h2>
 					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
-						Be sure that whomever you rent your property to doesnt have complicated background history in their countries of origin.
+						Protect your property and peace of mind by screening potential tenants thoroughly. Our platform offers comprehensive background checks for Latino
+						individuals in the US, giving you the confidence to lease with ease. Fast, reliable, and secure. Pay with your credit card today!
 					</p>
 				</div>
 				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Employee background</h2>
-					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Hire with Confidence</h2>
+					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
+						Find the best talent for your business with our reliable background checks. Our service screens Latino job applicants in the US, ensuring you make
+						informed hiring decisions. Strengthen your team with the right hires!
+					</p>
 				</div>
 				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
-					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Volunteer insurance</h2>
-					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">Ensure you can trust your employees with your precious business</p>
+					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Verify Volunteers and Service Providers Instantly</h2>
+					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
+						Ensure the safety and reliability of your volunteers and service providers with our thorough background checks. Our platform specializes in
+						screening Latino individuals in the US, providing you with instant, accurate results.
+					</p>
 				</div>
 			</div>
 			<div className="flex relative w-[100svw] flex-col h-[70svh] lg:h-[75svh] items-center justify-end pt-10">
@@ -57,8 +64,7 @@ export default function Home() {
 						<ul>
 							<li className="text-sm text-white font-extralight md:text-base">- Checks in 4 countries</li>
 							<li className="text-sm text-white font-extralight md:text-base">- Criminal background check</li>
-							<li className="text-sm text-white font-extralight md:text-base">- Verification of existence</li>
-							<li className="text-sm text-white font-extralight md:text-base">- Credit score</li>
+							<li className="text-sm text-white font-extralight md:text-base">- Verification of personhood</li>
 						</ul>
 					</div>
 					<div className="flex flex-col justify-end md:border-l border-t md:border-t-0 border-white pl-0 ml-0 md:ml-3 md:pl-6 pt-3 mt-3">
