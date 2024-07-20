@@ -20,24 +20,30 @@ export default function Home() {
 				</div>
 			</div>
 			<p className="text-4xl font-bold text-white mb-10">Use cases</p>
-			<div className="mb-20 text-center gap-y-6 lg:gap-x-6 lg:justify-center flex-col lg:flex-row flex lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950" rel="noopener noreferrer">
+			<div className="mb-20 p-4 text-center gap-y-6 lg:gap-x-6 lg:justify-center flex-col lg:grid lg:grid-cols-3 flex lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
+				<div
+					className="group flex-col flex justify-center border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950"
+					rel="noopener noreferrer">
 					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Ensure Safe Tenancy with Trusted Background Checks</h2>
-					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
+					<p className="m-0  text-white text-center text-sm opacity-50">
 						Protect your property and peace of mind by screening potential tenants thoroughly. Our platform offers comprehensive background checks for Latino
 						individuals in the US, giving you the confidence to lease with ease. Fast, reliable, and secure. Pay with your credit card today!
 					</p>
 				</div>
-				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
+				<div
+					className="group flex-col flex justify-center border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 "
+					rel="noopener noreferrer">
 					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Hire with Confidence</h2>
-					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
+					<p className="m-0  text-white text-center text-sm opacity-50">
 						Find the best talent for your business with our reliable background checks. Our service screens Latino job applicants in the US, ensuring you make
 						informed hiring decisions. Strengthen your team with the right hires!
 					</p>
 				</div>
-				<div className="group border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 " rel="noopener noreferrer">
+				<div
+					className="group flex-col flex justify-center border border-white/40 rounded-xl px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-950 "
+					rel="noopener noreferrer">
 					<h2 className="mb-3 text-2xl text-white text-center font-semibold">Verify Volunteers and Service Providers Instantly</h2>
-					<p className="m-0 max-w-[30ch] text-white text-center text-sm opacity-50">
+					<p className="m-0  text-white text-center text-sm opacity-50">
 						Ensure the safety and reliability of your volunteers and service providers with our thorough background checks. Our platform specializes in
 						screening Latino individuals in the US, providing you with instant, accurate results.
 					</p>
